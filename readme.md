@@ -1,8 +1,10 @@
 # Words and Pig Latin
 
-I've created a `Word` class that is a wrapper for a string. Your job will be to implement a Ruby method `piglatinize` that returns the pig latin equivalent of the word. __Use TDD!__
+You're working through a marketing campaign for humor website and they're looking for a fun interactive feature on
+piglatinizing comments. Harry our friendly test dev has already working with the marketing agency to determine the 
+appropriate rules and requirements and built RSpec files for us!
 
-Description of the rules from Wikipedia:
+Here's Wikipedia's description of the rules for more context:
 
 For words that begin with vowel sounds or silent letter, "way" is added at the end of the word. Examples are
 
