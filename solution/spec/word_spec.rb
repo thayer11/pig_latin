@@ -6,7 +6,7 @@ describe Word do
   describe "#original_word" do
     let(:word) { Word.new("bazinga") }
 
-    it "returns the original word" do
+    it "has returns the original word" do
       expect( word.original_word ).to eq("bazinga")
     end
   end
@@ -35,6 +35,5 @@ describe Word do
         expect( word.piglatinize ).to eq("oveglay")
       end
     end
-
   end
 end
